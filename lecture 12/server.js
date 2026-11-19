@@ -9,3 +9,4 @@ app.use(express.json()); //middleware
 app.use("/students", studentRoutes);
 
 app.listen(PORT, () => console.log("server is running"))
+
